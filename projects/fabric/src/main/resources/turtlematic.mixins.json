@@ -9,6 +9,7 @@
     "TurtleBrainMixin"
   ],
   "client": [
-    "TurtleBlockEntityRendererMixin"
+    "TurtleBlockEntityRendererMixin",
+    "TurtleModelPartsMixin"
   ]
 }
