@@ -94,10 +94,8 @@ class ChunkManager : SavedData() {
         } else {
             removeChunk(owner, loadedChunk, level)
         }
-        if (result) {
-            forcedChunks.remove(owner)
-            setDirty()
-        }
+        forcedChunks.remove(owner)
+        setDirty()
         return result
     }
 
